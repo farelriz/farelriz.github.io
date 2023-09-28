@@ -58,3 +58,33 @@ button {
 .tanah.muncul .kuntolo {
     top: -20;
 }
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      max-width: none; /* Remove max-width on smaller screens */
+    }
+  
+    .tanah {
+      width: 33%; /* Make it take full width on smaller screens */
+    }
+  
+    .tanah::after {
+      width: 100%; /* Make it take full width on smaller screens */
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+      float: left;
+    }
+  
+    .kuntolo {
+      top: 60px; /* Adjust top position */
+    }
+  
+    .tanah.muncul .kuntolo {
+      top: 0; /* Adjust top position */
+    }
+  }
+
