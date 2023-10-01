@@ -76,6 +76,13 @@ button {
 
     .tanah.muncul .kuntolo {
         top: -17;
+        left: 22px;
+    }
+
+    .kuntolo {
+        width: 100%;
+        height: 100%;
+        left: 22px;
     }
    
 
